@@ -1,10 +1,10 @@
 .calculator {
-    width: 300px; /* Increased width */
+    width: 500px; /* Increased width */
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: black;
 }
 
 #display {
@@ -37,4 +37,10 @@ button:hover {
 .heading {
     text-align: center; /* Center-align the heading */
     margin-bottom: 20px; /* Add some space below the heading */
+    text-decoration: black underline;
+}
+body {
+    background-image: url(Calculator\ Background.jpeg);
+    background-size: cover;
+    background-position: center;
 }
