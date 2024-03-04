@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
